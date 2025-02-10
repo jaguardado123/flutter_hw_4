@@ -30,7 +30,7 @@ color: _wasPressed ? Colors.green : Colors.black
 
 NOTE: Don't forget to call **SetState** when you handle the button press otherwise flutter won't know to rebuild the UI.
 
-<img src="https://github.com/bry02g/hw2_stateful_widgets/raw/master/screenshots/question1.gif" width="40%">
+<img src="images/question1.gif" width="40%">
 
 ## Question 2
 
@@ -39,7 +39,7 @@ You will need to wire up the IconButton to toggle between filled/unfilled heart.
 Hint: will need to use two icons Icons.favorite_border & Icons.favorite. Simillar to question 1, this time you will need to swap the icons depending on the state your variable holds.
 
 
-<img src="https://github.com/bry02g/hw2_stateful_widgets/raw/master/screenshots/question2.gif" width="40%">
+<img src="images/question2.gif" width="40%">
 
 ## Question 3
 
@@ -68,7 +68,7 @@ You will need to wire up the Done button so that when it's pressed it check
 if the two text fields have the same password if they don't display 
 "Passwords Don't Match"
 
-<img src="https://github.com/bry02g/hw2_stateful_widgets/raw/master/screenshots/question3.gif" width="40%">
+<img src="images/question3.gif" width="40%">
 
 
 ## Question 4
@@ -88,7 +88,7 @@ You will need to used the button behavior of beeing disables when given a null c
 onPressed: agreed ? () {} : null
 ```
 
-<img src="https://github.com/bry02g/hw2_stateful_widgets/raw/master/screenshots/question4.gif" width="40%">
+<img src="images/question4.gif" width="40%">
 
 ## Question 5 
 
@@ -112,7 +112,7 @@ urls:
 "https://media4.s-nbcnews.com/j/newscms/2019_47/3112746/191121-baby-yoda-cs-959a_ed40d38efa3cde7ab92df2d5492a81a5.fit-1120w.jpg"
 
 <br/>
-<img src="https://github.com/bry02g/hw2_stateful_widgets/raw/master/screenshots/question5.gif" width="40%">
+<img src="images/question5.gif" width="40%">
 
 
 
