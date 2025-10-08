@@ -114,6 +114,19 @@ urls:
 <br/>
 <img src="images/question5.gif" width="40%">
 
+<br/>
+
+## Grading Criteria
+
+| Task | Value of each task | Possible Points Lost |
+|---|---|---|
+| Question 1 | 20 points | If the text does not turn green when the button is pressed (No credit awarded) <br> Note: (you don’t have to make the text go from green to black again) |
+| Question 2 | 20 points | If the icon is not changed when pressed (No credit awarded) |
+| Question 3 | 20 points | If the passwords don’t match/get the error message but the error doesn’t disappear when they are the same. (10 points deduction) <br> If the passwords don’t match and you don’t get the error message (No credit awarded) |
+| Question 4 | 20 points | If the checkbox does not change the state of the signUp button (No credit awarded) |
+| Question 5 | 20 points | If images don’t change when the button is pressed (No credit awarded) |
+| | 100 points total | |
+
 
 
 

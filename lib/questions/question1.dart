@@ -22,7 +22,8 @@ class _Question1State extends State<Question1> {
                 Navigator.pop(context);
               },
             ),
-            title: const Text('Question 1'),
+            title: const Text('Question 1', style: TextStyle(color: Colors.white),),
+            centerTitle: true,
           ),
           body: Center(
             child: Padding(

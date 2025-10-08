@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 // WILL NEED TO MAKE THIS CLASS INTO A STATEFUL WIDGET
+// ADD THE NECESSARY CODE TO GET THE IMAGES TO SWITCH
 class Question5 extends StatelessWidget {
   const Question5({super.key});
 
@@ -19,7 +20,8 @@ class Question5 extends StatelessWidget {
                 Navigator.pop(context);
               },
             ),
-            title: const Text('Images'),
+            title: const Text('Question 5', style: TextStyle(color: Colors.white),),
+            centerTitle: true,
           ),
           body: Column(
               mainAxisAlignment: MainAxisAlignment.center,

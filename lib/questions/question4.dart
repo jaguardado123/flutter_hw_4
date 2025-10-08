@@ -24,7 +24,8 @@ class _Question4State extends State<Question4> {
             Navigator.pop(context);
           },
         ),
-        title: const Text('Question 4'),
+            title: const Text('Question 4', style: TextStyle(color: Colors.white),),
+            centerTitle: true,
       ),
       body: Column(
           mainAxisAlignment: MainAxisAlignment.center,

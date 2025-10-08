@@ -30,7 +30,8 @@ class _Question3State extends State<Question3> {
                 Navigator.pop(context);
               },
             ),
-            title: const Text('Question 3'),
+            title: const Text('Question 3', style: TextStyle(color: Colors.white),),
+            centerTitle: true,
           ),
           body: Padding(
             padding: const EdgeInsets.all(8.0),
