@@ -1,22 +1,22 @@
 # Homework 4 - Flutter Interactivity
 
-The objective for this homework is to add interactive stateful Flutter widgets for each of the questions so that they match the screenshots provided.
+The objective of this homework assignment is to practice working with **Stateful Widgets**. For this homework you'll have to add interactive stateful Flutter widgets for each of the questions so that they match the screenshots provided.
 
 All you modifications/changes will go under:
-lib/questions/
+`lib/questions/`
 
-you will change question#.dart files.
+You will change **question#.dart** files.
 
-the starting point for the whole application is: 
-lib/main.dart
+The starting point for the whole application is: 
+`lib/main.dart`
 
 ## Question 1
 
-You will need to wire up the **onPressed** function in order to make the text turn <span style="color:green;">green</span> when pressed.
+You will need to write up the **onPressed** function in order to make the text turn <span style="color:green;">green</span> when pressed.
 
-Hint: you will need to make a variable to store if the button was press. Using this variable you can used a if conditional or ternary operator to know which color to assign to the Text.
+**Hint**: You will need to make a Boolean variable to determine if the button was pressed. Using this variable you can use an if conditional or <u>ternary operator</u> to know which color to assign to the Text.
 
-ex.
+**Ex**:
 ```dart 
 ...
 // this is a ternary operator: 
@@ -28,15 +28,15 @@ color: _wasPressed ? Colors.green : Colors.black
 ```
 <br/>
 
-NOTE: Don't forget to call **SetState** when you handle the button press otherwise flutter won't know to rebuild the UI.
+**NOTE**: Don't forget to call `setState()` when you handle the button press, otherwise Flutter won't know to rebuild the UI.
 
 <img src="images/question1.gif" width="40%">
 
 ## Question 2
 
-You will need to wire up the IconButton to toggle between filled/unfilled heart.
+You will need to write up the IconButton to toggle between filled/unfilled heart.
 
-Hint: will need to use two icons Icons.favorite_border & Icons.favorite. Simillar to question 1, this time you will need to swap the icons depending on the state your variable holds.
+**Hint**: You will need to use two icons `Icons.favorite_border` & `Icons.favorite`. Simillar to Question 1, this time you will need to swap the icons depending on the state your variable holds.
 
 
 <img src="images/question2.gif" width="40%">
@@ -64,25 +64,26 @@ TextField(
 )
 ```
 
-You will need to wire up the Done button so that when it's pressed it check 
-if the two text fields have the same password if they don't display 
-"Passwords Don't Match"
+You will need to write up the Done button so that when it's pressed it checks 
+if the two text fields have the same password. If the passwords don't match, display 
+**"Passwords Don't Match"**
 
 <img src="images/question3.gif" width="40%">
 
 
 ## Question 4
-NOTE: When you first run Question 4 you will see that both the checkbox and button are disable. This occurs when onChanged/onPressed are set to **null**
+
+**NOTE**: When you first run Question 4 you will see that both the checkbox and button are disabled. This occurs when `onChanged`/`onPressed` are set to **null**
 
 For this question you will need to handle the state of the checkbox when checked the "Sign Up" button should become enabled. 
 (The Sign up button doesn't need to do anything when pressed.)
 
-Hint: The onChanged callback has a parameter which represent if the checkbox was checked/unchecked (true/false)
+**Hint**: The `onChanged` callback has a parameter which represent if the checkbox was checked/unchecked (true/false)
 ```dart
 onChanged : (newValue) {}
 ```
 
-You will need to used the button behavior of beeing disables when given a null callback
+You will need to use the button behavior of beeing disabled when given a null callback
 
 ```dart
 onPressed: agreed ? () {} : null
@@ -92,14 +93,14 @@ onPressed: agreed ? () {} : null
 
 ## Question 5 
 
-Remember the Baby Yoda question from the previous homework.
-Well today the requirements have changed instead of showing a single Baby Yoda image you now will need to cycle between three images when the the icon button is pressed.
+Remember the Baby Yoda question from the previous homework?
+Well today the requirements have changed, instead of showing a single Baby Yoda image you now will need to cycle between three images when the the icon button is pressed.
 
-As you might recall the last homework was about **stateless** widgets so for this question you will need to convert that widget into a **stateful** widget before adding in the image cycling feature that require state.
+As you might recall the last homework was about **Stateless** widgets so for this question you will need to convert that widget into a **Stateful** widget before adding in the image cycling feature that require state.
 
-Note: Sometimes it take a few seconds for the images to load from the internet that's ok.
+**Note**: Sometimes it take a few seconds for the images to load from the internet, that's ok.
 
-urls:
+**URLs**:
 
 "https://i.insider.com/5e32f2a324306a19834af322?width=1800&format=jpeg&auto=webp"
 

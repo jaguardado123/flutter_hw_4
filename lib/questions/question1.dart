@@ -7,6 +7,9 @@ class Question1 extends StatefulWidget {
 }
 
 class _Question1State extends State<Question1> {
+  // *********************
+  // CREATE VARIABLES HERE
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -37,6 +40,7 @@ class _Question1State extends State<Question1> {
                       style: TextStyle(
                         fontSize: 25,
 
+                        // *****************************
                         // WILL NEED TO MODIFY THIS LINE
                         color: Colors.black,
                       ),
@@ -47,7 +51,9 @@ class _Question1State extends State<Question1> {
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.green),
                         onPressed: () {
+                          // *****************
                           // ADD YOUR CODE HERE
+
                         },
                         child: const Text('Make Green'),
                       ),
